@@ -1,4 +1,5 @@
 path_work="$HOME/work"
+path_config_shell="$HOME/.config/shell"
 
 alias work="goto $path_work"
 alias ..="goto .."
@@ -25,7 +26,7 @@ alias hosting_http="exec_py hosting_http"
 alias show_path="exec_py show_path"
 alias srt_player_utf8="exec_py srt_player_utf8"
 
-. $HOME/.config/shell/core/functions.sh
+. $path_config_shell/core/functions.sh
 
 # settings of terminal
 # export LANG=en_US.UTF-8

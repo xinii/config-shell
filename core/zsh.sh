@@ -1,4 +1,4 @@
-. $HOME/.config/shell/core/common.sh
+. $path_config_shell/core/common.sh
 
 PROMPT="%F{yellow}%?%f %F{magenta}%D %* %n@%f%F{green}%M%f
 %F{cyan}%~ %# %f"

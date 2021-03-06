@@ -12,7 +12,7 @@ gst() {
     git status
 }
 exec_py() {
-    python3 $HOME/.config/shell/python_tools/$1.py $2
+    python3 $path_config_shell/python_tools/$1.py $2
 }
 clean() {
     find . -name "$1" -exec rm -rfv {} \;
@@ -42,7 +42,7 @@ count() {
     print "Folder | "$[dir_a-2]" |   "$dir_n"   |"
 }
 dict() {
-    grep $1 $HOME/.config/bash/utf8.dict -A 1 -wi --color
+    grep $1 $path_config_shell/utf8.dict -A 1 -wi --color
 }
 backup_xrea() {
     tar cvjpf `date +%Y-%m-%d`-backup.tar.bz2 --exclude=./public_html/.fast-cgi-bin --exclude=./public_html/log ./public_html
