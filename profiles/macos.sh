@@ -7,4 +7,4 @@
 export PATH=/usr/local/opt/coreutils/libexec/gnubin:${PATH}
 export MANPATH=/usr/local/opt/coreutils/libexec/gnuman:${MANPATH}
 
-. $HOME/.config/shell/link.sh $0
+. $HOME/.config/shell/core/link.sh $0

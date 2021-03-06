@@ -1,1 +1,1 @@
-. $HOME/.config/shell/link.sh $0
+. $HOME/.config/shell/core/link.sh $0
