@@ -1,3 +1,5 @@
+path_config_shell="$HOME/.config/shell"
+
 # BSD
 # export CLICOLOR="Yes"
 # export LS_OPTIONS="--color=auto"
